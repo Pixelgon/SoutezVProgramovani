@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# Hratky s cisly 3. soutezni uloha 
+# Hratky s cisly 3. soutezni uloha
 # Vytvoril Matej Matejka
 # -----------------------------------------------------------
 
@@ -33,7 +33,7 @@ while True:
     numsez = [int(x) for x in str(num)]
     # Overime zda se zadne cislo neopakuje
     if len(numsez) == len(set(numsez)):
-        print(num)
+        print("Výsledek:", num)
         break
     else:
         cycl = False
